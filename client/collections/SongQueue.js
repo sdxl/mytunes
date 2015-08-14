@@ -2,11 +2,12 @@
 var SongQueue = Songs.extend({
 
   initialize: function(){
-
+    this.render();
   },
 
   render: function(){
-
+    //this.#el (what???)
+    //render should help append children to the Song Queue
   },
 
   enqueue: function(){
